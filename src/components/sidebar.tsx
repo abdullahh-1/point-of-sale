@@ -1,7 +1,6 @@
 import React from "react";
 import "./sidebar.css";
-import Container from "react-bootstrap/Container";
-import Navbar from "react-bootstrap/Navbar";
+import { Button } from "react-bootstrap";
 
 const Sidebar: React.FC = () => {
 	return (
@@ -9,44 +8,29 @@ const Sidebar: React.FC = () => {
 			<nav>
 				<ul className="list-none">
 					<li className="py-2">
-						<a
-							href=""
-							className="hover:bg-gray-800 hover:text-gray-200 text-gray-400 block"
-						>
+						<Button className="bg-dark border-white-700 hover:bg-gray-800 hover:text-gray-200 text-gray-400 block ">
 							Home
-						</a>
+						</Button>
 					</li>
 					<li className="py-2">
-						<a
-							href=""
-							className="hover:bg-gray-800 hover:text-gray-200 text-gray-400 block"
-						>
+						<Button className="bg-dark hover:bg-gray-800 hover:text-gray-200 text-gray-400 block">
 							Reservation
-						</a>
+						</Button>
 					</li>
 					<li className="py-2">
-						<a
-							href=""
-							className="hover:bg-gray-800 hover:text-gray-200 text-gray-400 block"
-						>
+						<Button className="bg-dark hover:bg-gray-800 hover:text-gray-200 text-gray-400 block">
 							Menu
-						</a>
+						</Button>
 					</li>
 					<li className="py-2">
-						<a
-							href=""
-							className="hover:bg-gray-800 hover:text-gray-200 text-gray-400 block"
-						>
+						<Button className="bg-dark hover:bg-gray-800 hover:text-gray-200 text-gray-400 block">
 							Delivery
-						</a>
+						</Button>
 					</li>
 					<li className="py-2">
-						<a
-							href=""
-							className="hover:bg-gray-800 hover:text-gray-200 text-gray-400 block"
-						>
+						<Button className="bg-dark hover:bg-gray-800 hover:text-gray-200 text-gray-400 block">
 							Accounting
-						</a>
+						</Button>
 					</li>
 				</ul>
 			</nav>

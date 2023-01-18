@@ -10,8 +10,8 @@ function App() {
 	return (
 		<div className="App">
 			<NavBar></NavBar>
-			{/* <Sidebar /> */}
-			<Products ProductName={"product"} ProductType={"type"} ProductPrice={"15"} />
+			<Sidebar />
+			{/* <Products ProductName={"product"} ProductType={"type"} ProductPrice={15} /> */}
 		</div>
 	);
 }
